@@ -1,73 +1,79 @@
-# Welcome to your Lovable project
 
-## Project info
+# Trove Finds: Second-Hand Marketplace
 
-**URL**: https://lovable.dev/projects/a664b51b-f19e-4be0-92b8-2eb6f288f012
+## Project Overview
 
-## How can I edit this code?
+Trove Finds is a modern, user-friendly second-hand marketplace platform that allows users to buy, sell, and trade pre-owned items locally or nationally.
 
-There are several ways of editing your application.
+## Key Features
 
-**Use Lovable**
+### Authentication
+- User and Admin login systems
+- Role-based access control
+- Secure authentication management
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/a664b51b-f19e-4be0-92b8-2eb6f288f012) and start prompting.
+### Marketplace Capabilities
+- Product listings
+- Search and filter functionality
+- Messaging system
+- Wishlist feature
 
-Changes made via Lovable will be committed automatically to this repo.
+## Authentication Roles
 
-**Use your preferred IDE**
+- **Regular Users**: 
+  - Can browse, list, and purchase items
+  - Send and receive messages
+  - Manage personal profile
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **Admin Users**:
+  - Full platform management
+  - User and listing moderation
+  - Access to administrative dashboard
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Technology Stack
 
-Follow these steps:
+- Frontend: React with Typescript
+- Styling: Tailwind CSS
+- UI Components: Shadcn/UI
+- State Management: Tanstack React Query
+- Authentication: Supabase
+
+## Getting Started
+
+### Prerequisites
+- Node.js
+- npm or bun
+- Supabase account
+
+### Installation
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Clone the repository
+git clone <repository-url>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Install dependencies
+npm install
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## Deployment
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Deploy easily through Lovable's publish feature or connect to your preferred hosting platform.
 
-**Use GitHub Codespaces**
+## Roadmap
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- [ ] Implement full admin dashboard
+- [ ] Add advanced search filters
+- [ ] Integrate payment systems
+- [ ] Implement user ratings and reviews
 
-## What technologies are used for this project?
+## Contributing
 
-This project is built with:
+Contributions are welcome! Please read our contributing guidelines before getting started.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## License
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/a664b51b-f19e-4be0-92b8-2eb6f288f012) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+[Add your license information]
+```
